@@ -4,6 +4,15 @@
 
 -[Project from Spring Initializer](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.7.4&packaging=jar&jvmVersion=17&groupId=com.demo.task.tracker&artifactId=springboot-task-tracker-h2-api&name=Task-tracker&description=Task%20Tracker%20API%20with%20Spring%20Boot%20and%20H2%20Database&packageName=com.demo.task.tracker&dependencies=web,validation,lombok,data-jpa,h2)
 
+## Docker 
+- [Manage access tokens](https://docs.docker.com/docker-hub/access-tokens/)
+
+
+## Solving Errors
+
+- [Docker endpoint for "default" not found](https://stackoverflow.com/questions/74804296/docker-endpoint-for-default-not-found)
+
+
 
 - [](https://www.baeldung.com/ops/dockerfile-env-variable)
 

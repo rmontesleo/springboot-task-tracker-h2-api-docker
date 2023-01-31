@@ -16,9 +16,8 @@ FROM base as build
 RUN ./mvnw package
 
 FROM eclipse-temurin:17-jre-alpine as production
-ARG JAR_NAME=task-tracker-docker.jar
 RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
 EXPOSE 8080
-COPY --from=build /app/target/${JAR_NAME} /${JAR_NAME}
-ENTRYPOINT ["java", "-jar", ${JAR_NAME} ]
+COPY --from=build /app/target/task-tracker-docker.jar /home/spring/task-tracker-docker.jar
+ENTRYPOINT ["java", "-jar", "/home/spring/task-tracker-docker.jar" ]
