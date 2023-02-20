@@ -11,6 +11,7 @@
 ## Solving Errors
 
 - [Docker endpoint for "default" not found](https://stackoverflow.com/questions/74804296/docker-endpoint-for-default-not-found)
+- [Cannot run program mvn due to Permission Denied or No such file or directory errors when performing Bamboo Specs scan](https://confluence.atlassian.com/bamkb/cannot-run-program-mvn-due-to-permission-denied-or-no-such-file-or-directory-errors-when-performing-bamboo-specs-scan-1055002515.html)
 
 
 
