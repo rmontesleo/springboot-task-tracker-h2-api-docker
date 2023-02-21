@@ -6,6 +6,7 @@
 
 ## Docker 
 - [Manage access tokens](https://docs.docker.com/docker-hub/access-tokens/)
+- [Ways to set environment variables in Compose](https://docs.docker.com/compose/environment-variables/set-environment-variables/)
 
 
 ## Solving Errors
