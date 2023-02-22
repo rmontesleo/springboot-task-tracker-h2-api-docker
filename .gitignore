@@ -35,6 +35,8 @@ build/
 ### Environment variables ###
 .env
 .env_variables
+.env_container
+.env_compose
 
 
 ### Ignore override compose configurations ###
